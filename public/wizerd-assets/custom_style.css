@@ -1,0 +1,134 @@
+
+
+
+
+/* Modal Style Start */
+
+.custom_model_form {
+  position: relative;
+}
+.nk-wizard-simple .steps ul li.done:after,
+.nk-wizard-simple .steps ul li.current:after {
+  height: 6px;
+  background: #00d85b;
+  width: 100%;
+}
+.nk-wizard-simple .steps ul li.current:after {
+  height:6px;
+  background: #00d85b;
+  width: 100%;
+}
+.nk-wizard-simple .steps ul li:after {
+  position: absolute;
+  height: 6px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+  transition: all 0.4s;
+  background: #e5e9f2;
+      border-radius: 2px;
+}
+.nk-wizard-simple .steps ul li .number {
+  display: none;
+}
+.nk-wizard-simple .steps ul li {
+  padding-top: 20px;
+}
+
+.custom_model_form li.disabled .icon {
+  position: absolute;
+top: -23px;
+    left: -21px;
+  font-size: 52px;
+  color: #e5e9f2;
+}
+
+.custom_model_form li.done .icon {
+  position: absolute;
+  top: -23px;
+  left: -24px;
+  font-size: 52px;
+  color: #01d85b;
+  z-index: 2;
+}
+
+.custom_model_form li.last.done .icon {
+  position: absolute;
+  top: -23px;
+  left: -24px;
+  font-size: 52px;
+  color: #e5e9f2;
+  z-index: 2;
+}
+
+.custom_model_form li.current .icon {
+  position: absolute;
+top: -23px;
+    left: -30px;
+  font-size: 52px;
+  color: #01d85b;
+}
+.nk-wizard-simple .steps ul li h5 {
+  text-transform: capitalize;
+  color: #9b9b9b !important;
+}
+.modalboxcontainer {
+  border-top: 1px solid #bdbec1;
+  padding: 30px 0;
+}
+.actions ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.actions ul li a {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.4s ease;
+  border-color: #4bd98f;
+  background: #4bd98f;
+  padding: 0.4375rem 1.125rem;
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+  border-radius: 25px;
+}
+.discardBtn {
+  position: absolute;
+  bottom: 13px;
+  left: 20px;
+}
+.discardBtn button {
+  background:none;
+  color: #050505;
+  border: 1px solid #AAB0C3;
+  border-radius: 25px;
+}
+.discardBtn button:hover,
+.discardBtn button:focus {
+  background:none;
+  color: #000;
+  border: 1px solid #AAB0C3;
+  border-radius: 25px;
+  outline: none;
+}
+
+.nk-wizard-simple .steps ul li.current ~ .done:after {
+    height: 6px;
+    background: #e5e9f2;
+}
+
+.workstream_members
+{
+        border-bottom: 1px solid #dbdfea !important;
+
+}
+
+.actions ul li:first-child{
+    order: unset;
+}
+
+
+

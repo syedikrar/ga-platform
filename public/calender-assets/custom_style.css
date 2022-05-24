@@ -1,0 +1,523 @@
+.calendar-area {
+  border-top: 1px solid #dbdfea;
+  padding: 20px 0;
+}
+.card-inner-event-calender {
+background: #fff !important;
+padding: 20px 20px 40px;
+border: 1px solid #E0E0E0;
+}
+a.fc-event-success {
+    background-color: #236CF7 !important;
+    border-color: #236CF7 !important;
+    color: #fff !important;
+}
+.card-inner-event-calender-side-bar {
+    padding-left: 15px;
+    padding-right: 30px;
+    /* border-radius: 16px; */
+    background: #fff !important;
+    padding-bottom: 20px;
+    border-top: 1px solid #E0E0E0;
+    padding-top: 20px;
+}
+.card-inner-event-calender-side-bar .custom-delete-btn {
+  background: #fc6c6c;
+  border: none;
+  border-radius: 15px;
+  padding: 2px 25px;
+  color: #fff;
+  font-variant: all-petite-caps;
+  width: 100%;
+  min-width: 110px;
+}
+.card-inner-event-calender-side-bar .custom-edit-btn {
+  background: #236cf7;
+  border: none;
+  border-radius: 15px;
+  padding: 2px 25px;
+  color: #fff;
+  font-variant: all-petite-caps;
+  width: 100%;
+  min-width: 110px;
+}
+.card-inner-event-calender-side-bar .side-bar-text {
+  padding: 20px 0px;
+  color: #1d1f25;
+  font-weight: bold;
+}
+.card-inner-event-calender-side-bar .date-holder {
+}
+.card-inner-event-calender-side-bar .date-holder ul {
+}
+.card-inner-event-calender-side-bar .date-holder ul li {
+}
+.card-inner-event-calender-side-bar .date-holder ul li .icon {
+  color: #aab0c3;
+  font-size: 18px !important;
+}
+
+.card-inner-event-calender-side-bar .date-holder ul li span.title {
+  color: #050505;
+    font-weight: bold;
+}
+.card-inner-event-calender-side-bar .date-holder ul li a {
+}
+.card-inner-event-calender-side-bar .date-holder ul li a small.show-date {
+  color: #4980fc;
+  text-decoration: underline;
+  font-size: 10px;
+}
+.card-inner-event-calender-side-bar .date-holder ul li small.show-date {
+  color: #73798a;
+  padding-left: 22px;
+  font-weight: bold;
+}
+
+.card-inner-event-calender-side-bar .date-holder ul li small.copy-right-link {
+  font-size: 10px;
+  padding-left: 8px;
+  color: #73798a;
+}
+
+.card-inner-event-calender-side-bar
+  .date-holder
+  ul
+  li
+  small.copy-right-link
+  .icon {
+  background: #e5f2ff;
+  padding: 5px;
+  border-radius: 5px;
+  color: #4980fc;
+}
+.card-inner-event-calender-side-bar .date-holder ul li p.long-text {
+  color: #73798a;
+  padding-left: 22px;
+  font-weight: bold;
+  font-size: 13px;
+}
+.card-inner-event-calender-side-bar .chat-holder {
+}
+.card-inner-event-calender-side-bar .chat-holder .chat-header {
+}
+.card-inner-event-calender-side-bar .chat-holder .chat-header span.icon {
+}
+.card-inner-event-calender-side-bar .chat-holder .chat-header small.title {
+  color: #1d1f25;
+  font-size: 13px;
+}
+
+.card-inner-event-calender-side-bar .chat-holder ul {
+}
+.card-inner-event-calender-side-bar .chat-holder ul li {
+}
+.card-inner-event-calender-side-bar .chat-holder ul li .chat-inbox {
+  padding-top: 10px;
+}
+
+.card-inner-event-calender-side-bar
+  .chat-holder
+  ul
+  li
+  .chat-inbox
+  .profile-img-with-name {
+}
+.card-inner-event-calender-side-bar
+  .chat-holder
+  ul
+  li
+  .chat-inbox
+  .profile-img-with-name
+  img {
+  width: 15%;
+  border-radius: 100px;
+}
+.card-inner-event-calender-side-bar
+  .chat-holder
+  ul
+  li
+  .chat-inbox
+  .profile-img-with-name
+  .name-holder {
+  padding-left: 3%;
+  color: #050505;
+}
+.card-inner-event-calender-side-bar
+  .chat-holder
+  ul
+  li
+  .chat-inbox
+  .profile-img-with-name
+  .designation {
+  padding-left: 20%;
+  margin-top: -10px;
+}
+.card-inner-event-calender-side-bar
+  .chat-holder
+  ul
+  li
+  .chat-inbox
+  .profile-img-with-name
+  .designation
+  label {
+}
+
+/* All Events Page Start */
+
+.card-inner-event-calender .box {
+  padding-left: 15px;
+}
+
+.card-inner-event-calender .box .box-holder {
+  border-bottom: 1px solid #edeff4;
+  padding-bottom: 15px;
+}
+
+.card-inner-event-calender .box .box-holder:last-child {
+  border-bottom: none;
+}
+
+.card-inner-event-calender .box .totla-result {
+}
+
+.card-inner-event-calender .box .totla-result .totla-result-title {
+  color: #898fa2;
+}
+.card-inner-event-calender .box .event-title {
+  padding-top: 15px;
+}
+.card-inner-event-calender .box .event-title .title-holder {
+  color: #1d1f25;
+}
+
+.card-inner-event-calender .box .date-time-holder {
+  padding-top: 15px;
+}
+.card-inner-event-calender .box .date-time-holder .txt-holder {
+  color: #aab0c3;
+  font-size: 12px;
+}
+.card-inner-event-calender .box .date-time-holder .txt-holder .show-date {
+  color: #898fa2;
+  font-size: 12px;
+}
+
+/* Accordian start */
+
+.accordion {
+  padding: 10px;
+}
+
+.accordion-item {
+  background: none;
+}
+.card-inner-event-calender-side-bar .accordion a.accordion-head {
+  padding: 10px 0 10px 5px;
+}
+.card-inner-event-calender-side-bar .accordion .title {
+  font-size: 12px;
+  color: #050505;
+}
+.card-inner-event-calender-side-bar .accordion .title .from-date {
+  color: #050505;
+  font-weight: 100;
+}
+.card-inner-event-calender-side-bar .accordion .title .to-date {
+  color: #aab0c3;
+  font-weight: 100;
+}
+
+.card-inner-event-calender-side-bar
+  .accordion
+  .accordion-body
+  .accordion-inner {
+  padding: 10px 0 10px 5px;
+}
+
+.card-inner-event-calender-side-bar
+  .accordion
+  .accordion-body
+  .accordion-inner
+  .bodyHolder {
+}
+
+.card-inner-event-calender-side-bar
+  .accordion
+  .accordion-body
+  .accordion-inner
+  .bodyHolder
+  p {
+  color: #050505;
+}
+
+.card-inner-event-calender-side-bar
+  .accordion
+  .accordion-body
+  .accordion-inner
+  .bodyHolder
+  p
+  .title {
+  color: #050505;
+  font-weight: 100;
+}
+
+.card-inner-event-calender-side-bar
+  .accordion
+  .accordion-body
+  .accordion-inner
+  .bodyHolder
+  .ist-holder {
+}
+
+.card-inner-event-calender-side-bar
+  .accordion
+  .accordion-body
+  .accordion-inner
+  .bodyHolder
+  .ist-holder
+  ul {
+}
+
+.card-inner-event-calender-side-bar
+  .accordion
+  .accordion-body
+  .accordion-inner
+  .bodyHolder
+  .ist-holder
+  ul
+  li {
+}
+
+.card-inner-event-calender-side-bar
+  .accordion
+  .accordion-body
+  .accordion-inner
+  .bodyHolder
+  .list-holder
+  ul
+  li
+  .listing-body {
+  padding-right: 10px;
+}
+
+.card-inner-event-calender-side-bar
+  .accordion
+  .accordion-body
+  .accordion-inner
+  .bodyHolder
+  .list-holder
+  ul
+  li
+  .listing-body
+  .title-holder {
+}
+
+.card-inner-event-calender-side-bar
+  .accordion
+  .accordion-body
+  .accordion-inner
+  .bodyHolder
+  .list-holder
+  ul
+  li
+  .listing-body
+  .checkbox-holder {
+}
+
+/* Challenges Page Style start */
+
+.calendar-area .challenge-top-header {
+}
+.calendar-area .challenge-top-header label {
+  color: #aab0c3;
+  font-size: 10px;
+  font-weight: bold;
+}
+.calendar-area .challenge-top-header label.tasks-title {
+  padding-left: 19px;
+}
+.calendar-area .cust-accordian .accordion-item {
+  background: #f7f7f8 !important;
+}
+
+.calendar-area .cust-accordian .accordion-item .accordian-top-title-header {
+  padding-left: 2%;
+}
+.calendar-area
+  .cust-accordian
+  .accordion-item
+  .accordian-top-title-header
+  div.title {
+  padding-right: 20px;
+  color: #1d1f25;
+}
+.calendar-area
+  .cust-accordian
+  .accordion-item
+  .accordian-top-title-header
+  div.progress {
+  height: 0.43rem;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.calendar-area
+  .cust-accordian
+  .accordion-item
+  .accordian-top-title-header
+  div.progress
+  .progress-bar {
+  background-color: #ed4f50;
+}
+
+.calendar-area .cust-accordian .bodyHolder div.progress {
+  height: 0.43rem;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.calendar-area .cust-accordian .bodyHolder div.progress .progress-bar {
+  background-color: #ed4f50;
+}
+
+.calendar-area .cust-accordian .bodyHolder div.custom-event-progress-bar-style {
+  margin-left: 10%;
+  width: 100%;
+}
+.calendar-area
+  .cust-accordian
+  .bodyHolder
+  div.custom-event-progress-bar-style
+  .progress-bar {
+  background-color: #00d85b;
+}
+
+.calendar-area .cust-accordian .bodyHolder div.title {
+  padding-right: 70px;
+  text-align: left;
+  font-size: 13px;
+  padding-bottom: 10px;
+  color: #606060;
+}
+.calendar-area .cust-accordian .bodyHolder div.date-holder {
+  font-size: 10px;
+  color: #bdbec1;
+}
+.bar-in-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.accordian-border-bottom {
+  border-bottom: 1px solid #e9ebf1;
+  padding: 15px 0;
+}
+.accordion-icon {
+  left: 1rem !important;
+  font-size: 28px;
+}
+
+/* Modal Style Start */
+
+.custom_model_form {
+  padding: 10px 20px;
+  position: relative;
+}
+.nk-wizard-simple .steps ul li.done:after,
+.nk-wizard-simple .steps ul li.current:after {
+  height: 2px;
+  background: #00d85b;
+  width: 100%;
+}
+.nk-wizard-simple .steps ul li.current:after {
+  height: 2px;
+  background: #00d85b;
+  width: 100%;
+}
+.nk-wizard-simple .steps ul li:after {
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+  transition: all 0.4s;
+  background: #e5e9f2;
+}
+.nk-wizard-simple .steps ul li .number {
+  display: none;
+}
+.nk-wizard-simple .steps ul li {
+  padding-top: 20px;
+}
+
+.custom_model_form li.disabled .icon {
+  position: absolute;
+  top: -26px;
+  left: -24px;
+  font-size: 52px;
+  color: #e5e9f2;
+}
+
+.custom_model_form li.done .icon {
+  position: absolute;
+  top: -26px;
+  left: -24px;
+  font-size: 52px;
+  color: #01d85b;
+}
+
+.custom_model_form li.current .icon {
+  position: absolute;
+  top: -26px;
+  left: -24px;
+  font-size: 52px;
+  color: #01d85b;
+}
+.nk-wizard-simple .steps ul li h5 {
+  text-transform: capitalize;
+  color: #9b9b9b !important;
+}
+.modalboxcontainer {
+  border-top: 1px solid #bdbec1;
+  padding: 30px 0;
+}
+.actions ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.actions ul li a {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.4s ease;
+  border-color: #4bd98f;
+  background: #4bd98f;
+  padding: 0.4375rem 1.125rem;
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+  border-radius: 25px;
+}
+.discardBtn {
+  position: absolute;
+  bottom: 13px;
+  left: 20px;
+}
+.discardBtn button {
+  background: #fff;
+  color: #050505;
+  border: #fff;
+  border-radius: 25px;
+}
+.discardBtn button:hover,
+.discardBtn button:focus {
+  background: #4bd98f;
+  color: #fff;
+  border: #4bd98f;
+  border-radius: 25px;
+  outline: none;
+}
